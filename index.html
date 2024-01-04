@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Luas Dan Keliling Segitiga</h1>
+    </header>
+    <h2 id="indi">Keliling Segitiga = S1 + S2 + S3</h2>
+    <div>
+    <img src="./assets/Segitiga-Sama-Sisi-3260157176.png"/>
+    </div>
+    <form id="pengitung">
+        <label for="sisi1">S1</label><br>
+    <input type="number" placeholder="0" required id="sisi1" /><br>
+    <label for="sisi2">S2</label><br>
+    <input type="number" placeholder="0" required id="sisi2" /><br>
+    <label for="sisi3">S3</label><br>
+    <input type="number" placeholder="0" required id="sisi3" /><br>
+    <input type="submit" id="hitung" value="Hitung"/>
+    </form>
+    <form id="pengitungluas">
+        <label for="sisi1">Tinggi</label><br>
+        <input type="number" placeholder="0" required id="tinggi" /><br>
+    <label for="sisi2">Panjang Alas</label><br>
+    <input type="number" placeholder="0" required id="alas" /><br>
+    <input type="submit" value="Hitung"/>
+    </form>
+    <hr>
+    <navbar>
+    <button value="Reset" id="reset">Reset</button>
+    <button value="Ganti" id="ganti">Ganti</button>
+    </navbar>
+    <fieldset id="output">
+        <legend>Hasil</legend>
+        <p id="hasil">0</p>
+    </fieldset>
+        <footer>
+            <p id="text-footer">Pengitung Kartik</p>
+        </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

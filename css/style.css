@@ -1,0 +1,41 @@
+
+#output {
+    display: none;
+}
+#pengitungluas {
+    display: none;
+}
+header {
+    display: block;
+    margin: 0 auto 24px auto;
+    padding: 24px;
+    background-color: rgb(114, 164, 255);
+    color: aliceblue;
+    text-align: center;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12.5%;
+}
+form {
+    margin: 24px auto;
+    text-align: center;
+}
+input[type=number] {
+    width: 50%;
+    display: inline;
+}
+footer {
+    background-color: rgb(114, 164, 255);
+    display: block;
+    margin: 48px auto 24px auto;
+    padding: 24px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#text-footer {
+    font-size: 24px;
+}
